@@ -21,11 +21,11 @@ header {
   width: 100%;
   padding: 110px 40px 40px 40px;
   display: inline-block;
-  text-align: center;
   height: inherit;
   h1 {
     font-size: 3rem;
     margin-bottom: 15px;
+    margin-left: 37vw;
   }
   p {
     font-size: 1.1rem;
@@ -34,27 +34,126 @@ header {
     margin-bottom: 25px;
   }
   button {
+    font-size: 16px;
     background-color: $button-color;
     color: white;
     border: none;
+    margin-top: 8vh;
+    margin-left: 39vw;
     padding: 15px 30px;
     border-radius: 30px;
     cursor: pointer;
   }
 }
 
+main {
+  background-color: #F1F8E9;
+  height: 173vh;
+}
+
 .cards {
-  padding: 50px 20px;
-  text-align: center;
+  padding: 50px 85px;
+  background-color: rgb(236, 245, 248);
 }
 
 article {
-  width: 220px;
-  height: 328px;
-  border: solid 2px red;
+  background-color: white;
+  width: 260px;
+  height: 340px;
+  box-shadow: 0px 5px 3px rgb(167, 166, 166);  
+  border-radius: 7px;
   display: inline-block;
   margin: 15px;
   img {
     width: 100%;
+    border-radius: 7px 7px 0 0;
+  }
+  h3 {
+    margin-top: 10px;
+    margin-left: 65px;
+  }
+
+  p{
+    margin:15px 20px;
+  }
+}
+
+.verMais{
+  width: 85px;
+  margin: 10px 80px;
+  padding:8px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: #66bb6a;
+}
+
+.form-container{
+  padding-top: 40px;
+  padding-left: 175px;
+  background-color: #F1F8E9;
+  h3{
+    padding-left: 27vw;
+    padding-bottom: 20px;
+  }
+  p{
+    color: #767676 ;
+    width: 63vw;
+    padding-left: 14vw;
+    padding-bottom: 3vh;
+  }
+}
+
+form {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    display: block;
+    width: 53%;
+    height: 10vh;
+    margin: 13px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    padding-left: 40px;
+  }
+}
+
+#atividade{
+  border: none;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  width: 53%;
+  height: 10vh;
+  border-radius: 20px;
+  color: #767676;
+  padding-left: 40px;
+}
+
+.cadastrar {
+  width: 53%;
+  height: 10vh;
+  margin: 13px;
+  margin-left: 200px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #66bb6a;
+  padding: 7px;
+  font-weight: bold;
+}
+
+footer{
+  height: 80px;
+  background-color: #66bb6a;
+
+  p{
+    padding-left: 42vw;
+    padding-top: 5vh;
+    font-weight: bold;
+    color: white;
+
   }
 }

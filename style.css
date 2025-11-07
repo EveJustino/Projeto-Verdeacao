@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
@@ -19,40 +20,145 @@ header {
   width: 100%;
   padding: 110px 40px 40px 40px;
   display: inline-block;
-  text-align: center;
   height: inherit;
 }
+
 .box-header h1 {
   font-size: 3rem;
   margin-bottom: 15px;
+  margin-left: 37vw;
 }
+
 .box-header p {
   font-size: 1.1rem;
   width: 50vw;
   margin: 0 auto;
   margin-bottom: 25px;
 }
+
 .box-header button {
+  font-size: 16px;
   background-color: #66bb6a;
   color: white;
   border: none;
+  margin-top: 8vh;
+  margin-left: 39vw;
   padding: 15px 30px;
   border-radius: 30px;
   cursor: pointer;
 }
 
+main {
+  background-color: #F1F8E9;
+  height: 173vh;
+}
+
 .cards {
-  padding: 50px 20px;
-  text-align: center;
+  padding: 50px 85px;
+  background-color: #ecf5f8;
 }
 
 article {
-  width: 220px;
-  height: 328px;
-  border: solid 2px red;
+  background-color: white;
+  width: 260px;
+  height: 340px;
+  -webkit-box-shadow: 0px 5px 3px #a7a6a6;
+          box-shadow: 0px 5px 3px #a7a6a6;
+  border-radius: 7px;
   display: inline-block;
   margin: 15px;
 }
+
 article img {
   width: 100%;
-}/*# sourceMappingURL=style.css.map */
+  border-radius: 7px 7px 0 0;
+}
+
+article h3 {
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+article p {
+  margin: 15px 20px;
+}
+
+.verMais {
+  width: 85px;
+  margin: 10px 80px;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: #66bb6a;
+}
+
+.form-container {
+  padding-top: 40px;
+  padding-left: 175px;
+  background-color: #F1F8E9;
+}
+
+.form-container h3 {
+  padding-left: 27vw;
+  padding-bottom: 20px;
+}
+
+.form-container p {
+  color: #767676;
+  width: 63vw;
+  padding-left: 14vw;
+  padding-bottom: 3vh;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  display: block;
+  width: 53%;
+  height: 10vh;
+  margin: 13px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+
+#atividade {
+  border: none;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  width: 53%;
+  height: 10vh;
+  border-radius: 20px;
+  color: #767676;
+  padding-left: 40px;
+}
+
+.cadastrar {
+  width: 53%;
+  height: 10vh;
+  margin: 13px;
+  margin-left: 200px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #66bb6a;
+  padding: 7px;
+  font-weight: bold;
+}
+
+footer {
+  height: 80px;
+  background-color: #66bb6a;
+}
+
+footer p {
+  padding-left: 42vw;
+  padding-top: 5vh;
+  font-weight: bold;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
